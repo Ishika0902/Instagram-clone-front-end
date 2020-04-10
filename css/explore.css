@@ -1,0 +1,177 @@
+
+.col-12{
+    margin: 0;
+    margin-top: 4%;
+}
+
+.cont{
+    position: relative;
+    display: inline-flex;
+    width: 30%;
+}
+
+
+
+
+
+.image{
+    display: block;
+    width: 100%;
+    height: 15rem;
+}
+
+@media (min-width: 476px) {
+    .image {
+      display: block;
+      width: 100%;
+      height: 10rem;
+    }
+  } 
+ 
+  @media (min-width: 1000px) {
+   .image {
+     display: block;
+     width: 100%;
+     height: 15rem;
+   }
+ } 
+ 
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.2;
+    background-color: rgba(90, 90, 90, 0.274);
+  }
+
+  .text {
+    color: white;
+    font-size: 13px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .cont:hover .overlay{
+    opacity:0.9;
+
+}
+
+.fas{
+    color: white;
+    font-size: 250%;
+    margin-left: 10%;
+}
+
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+.profile-bar{
+  background-color: #ffffff;
+  height: 9%;
+  width: 104%;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.432);
+
+}
+
+.profile-image{
+  height: 40px;
+  width: 45px;
+  border: 2px solid #929292;
+  border-radius: 50%;
+  margin: 0;
+  margin-top: 7%;
+  margin-left: 4%;
+}
+
+
+.media-body{
+  margin: 0;
+  margin-top: 8%;
+  margin-left: 5%;
+  color: black;
+}
+.follow-link{
+  font-size: 105%;
+  color: #0095F6;
+}
+.follow-link:hover{
+  color: #0095F6;
+  text-decoration: none;
+}
+
+.caption-comments{
+  background-color: #ffffff;
+  height: 75%;
+  width: 104%;
+  font-size: 80%;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.432);
+
+}
+
+.like-share-icon{
+  background-color: #ffffff;
+  height: 10%;
+  width: 104%;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.432);
+
+}
+
+.far{
+  font-size: 150%;
+  color: black;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+
+.likes{
+  margin: 0;
+  margin-left: 4%;
+  margin-top: -3%;
+}
+
+.comment-bar{
+  background-color: #ffffff;
+  height: 6%;
+  width: 104%;
+}
+.comment{
+  border: 0;
+  width: 80%;
+}
+
+.comment:focus{
+  outline: 0;
+  box-shadow: none;
+}
+
+.post-button{
+  color: #00ADF1;
+  font-weight: 600;
+}
+
+.post-button:hover{
+  color: rgb(1, 183, 255);
+}
+
+.post-button:focus{
+  outline: 0;
+  box-shadow: none;
+}
